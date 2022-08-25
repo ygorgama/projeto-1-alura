@@ -35,7 +35,6 @@ form legend {
 .button:hover {
   background-color: darkorange;
   transform: scale(1.2);
-  transform: rotate(70deg);
 }
 
 .table {
@@ -63,5 +62,9 @@ th {
   }
   .table {
     width: 90%;
+  }
+  .table-section {
+    display: flex;
+    justify-content: center;
   }
 }
