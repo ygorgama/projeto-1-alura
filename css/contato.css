@@ -1,0 +1,67 @@
+.form {
+  margin: 40px 0;
+}
+
+.form label,
+form legend {
+  font-size: 20px;
+
+  margin: 0 0 10px;
+}
+
+.input-especifico {
+  display: block;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.button {
+  width: 40%;
+  padding: 15px 0;
+  background-color: orange;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.button:hover {
+  background-color: darkorange;
+  transform: scale(1.2);
+  transform: rotate(70deg);
+}
+
+.table {
+  margin: 20px 0 40px;
+}
+
+.table-head {
+  background-color: #555555;
+  font-weight: bold;
+  color: #fff;
+}
+
+.table td,
+th {
+  border: 1px solid #000;
+  padding: 15px 8px;
+}
+
+@media screen and (max-width: 480px) {
+  .form {
+    width: auto;
+  }
+  .input-especifico {
+    width: 80%;
+  }
+  .table {
+    width: 90%;
+  }
+}
